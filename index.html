@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Naveed's Portfolio</title>
+    <script src='scripts.js' defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1>Portfolio of Naveed Chowdhury</h1>
+        <h2>Bachelor of Computer Science</h2>
+        <p id="info">(Click text with <span id="notview">+</span> to view further details or 
+            <span class="link">></span> for reference material)</p>
+    </div>
+    <h2 id="education" onclick="courses(event)">
+        <span class="highlight">University of Windsor 2018-2023 </span><span class="view" id="vieweducation">+</span></h2>
+    <h2 id="experience" onclick="displayexperience(event)">
+        <span class="highlight">Work Experience </span><span class="view" id="viewexperience">+</span></h2>
+    
+    <h3 class="skill" id="webblock" onclick="displayweb(event)">
+        <span class="course">Web Development</span><span class="skillview" id="viewweb">+</span></h3>
+    <h3 class="skill" id="javablock" onclick="displayjavaskills(event)">
+        <span class="course">Java</span><span class="skillview" id="viewjava">+</span></h3>
+    <h3 class="skill" id="securityblock" onclick="netsecurity(event)">
+        <span class="course">Network Security</span><span class="skillview" id="viewsecurity">+</span></h3>
+    <h3 class="skill" id="toolsblock" onclick="displaytools(event)">
+        <span class="course">Other Tools</span><span class="skillview" id="viewtools">+</span></h3>
+</body>
+</html>

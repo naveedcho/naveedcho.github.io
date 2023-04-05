@@ -1,0 +1,149 @@
+body {
+    background-color: #06193c;
+}
+h1, h2, h3, p {
+    color: white;
+    text-align: center;
+}
+@font-face {
+    font-family: DINBold;
+    src: url("assets/fonts/DINBold.ttf");
+}
+h1, h2, h3, p {
+    font-family: DINBold;
+}
+h1 {
+    font-size: 2.75vmax;
+}
+h2 {
+    font-size: 1.75vmax;
+}
+h3 {
+    font-size: 1.5vmax;
+}
+p {
+    font-size: 1.2vmax;
+}
+#info {
+    font-size: 90%;
+}
+#notview {
+    color: #ffbf00;
+}
+.view, .link {
+    color: #ffbf00;
+}
+.skillview {
+    float: right;
+    padding-right: 4%;
+    color: #ffbf00;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#education, .skill, #experience {
+    cursor: pointer;
+}
+#education, #experience {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.skill {
+    border: solid 2pt white;
+    border-radius: 25pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    padding-top: 1.25%;
+    padding-bottom: 1.25%;
+}
+.course {
+    padding-left: 4%;
+}
+.skill {
+    transition: all 1s;
+    position: relative;
+    overflow: hidden;
+}
+/*
+Button hover animation was a reference to David Herbert:
+https://blog.logrocket.com/css-before-after-custom-animations-transitions/#before-pseudo-element
+
+.skill::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20pt;
+    transition: all 1s;
+    z-index: -1;
+    transform: translateX(-100%);
+}
+.skill:hover::before {
+    transform: translateX(0);
+}
+.skill > h3:hover {
+    color: #06193c;
+}
+.skill::after {
+    transform: translateX(-100%);
+*/
+/*
+.test {
+    border: solid 2pt white;
+    border-radius: 25pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    padding-top: 1.25%;
+    padding-bottom: 1.25%;
+    transition: all 1s;
+    position: relative;
+    overflow: hidden;
+}
+.test:hover {
+    cursor: pointer;
+}
+.test::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 25pt;
+    transition: all 1s;
+    z-index: -1;
+    transform: translateX(-100%);
+}
+.test:hover::before {
+    transform: translateX(0);
+}
+.test:hover {
+    cursor: pointer;
+    color: #06193c;
+}
+
+Link hover animation was a reference to Katherine Kato:
+https://css-tricks.com/4-ways-to-animate-the-color-of-a-text-link-on-hover/
+
+.highlight {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #ffbf00, #ffbf00 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 250ms ease;
+}
+.highlight:hover {
+    background-position: 0 100%;
+}
+*/
